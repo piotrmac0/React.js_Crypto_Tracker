@@ -1,0 +1,19 @@
+.navbar {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    margin:2.5rem;
+
+    .icon {
+        display:flex;
+        font-size:2rem;
+        color: rgb(255, 238, 145);
+    }
+    h1 { 
+        color: rgb(255, 238, 145);
+    }
+
+    
+}

@@ -1,0 +1,38 @@
+.coin_row {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:0px 0px 12px #18191b;
+    padding:1rem;
+    margin:1rem 0;
+    border-radius:8px;
+    font-weight:400;
+    transition: 0.3s ease-in-out;
+
+    
+
+    .img_symbol {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+            img {
+                height:40px;
+                width:auto;
+                display:flex;
+            
+            }
+        }
+
+        .hide_mobile {
+            @media(max-width: 720px) {
+                display:none;
+            }
+        }
+
+}
+
+.coin_row:hover {
+    transform:scale(1.02);
+    cursor:pointer;
+}

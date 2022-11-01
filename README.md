@@ -1,18 +1,25 @@
 React.js Crypto Price Tracker
+
+
 See live version: https://cryptotracker.piotrmac.dev/
 
+
 Cryptocurrency Price Tracker created in React.js with Axios using Coingecko API 
+
+
 
 Build with these dependencies installed by npm:
 
 {
+
   "name": "crypto_price_tracker",
 
   "version": "0.1.0",
 
   "private": true,
 
-  "dependencies": {
+  "dependencies": 
+{
 
     "@testing-library/jest-dom": "^5.16.5",
 
